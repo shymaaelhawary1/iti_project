@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
+//import 'OnboardingScreen.dart';
 import 'home.dart';
 
 void main() {
@@ -18,8 +19,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       builder: DevicePreview.appBuilder,
+      //home: OnboardingScreen(),
       home: HomeScreen(),
-      useInheritedMediaQuery: true,
     );
   }
 }

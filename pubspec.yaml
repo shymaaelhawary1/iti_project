@@ -77,7 +77,9 @@ flutter:
     - assets/pants1.jpeg
     - assets/pants2.jpeg
     - assets/pants3.jpeg
-    - assets/
+    - assets/skirt.jpg
+    - assets/pants.jpeg
+    - assets/dress.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
